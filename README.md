@@ -24,5 +24,5 @@ The first model uses only information available before its prediction: price/vol
 - `notebooks/` — reproducible Colab evidence for sources, cleaning, training, and evaluation.
 - `data/` — local-only data folders plus dataset documentation.
 - `backend/` — future FastAPI inference service.
-- `frontend/` — future React interface.
+- `frontend/` — future Vue 3 + Vite interface.
 - `docs/` — progress, data sources, experiment log, and decisions.
