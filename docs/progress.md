@@ -5,9 +5,12 @@ Update this file at the end of every work block. A task is **Done** only when it
 | ID | Task | Owner | Status | Evidence | Notes |
 | --- | --- | --- | --- | --- | --- |
 | SET-01 | Create tracking structure | Artem | Done | Initial repository structure | 2026-07-13 |
-| DATA-01 | Approve data sources and licences | Stepan | To do |  |  |
-| ML-01 | Create chronological dataset | Stepan | To do |  |  |
-| WEB-01 | Create UI shell and disclaimer | Artem | To do |  |  |
+| DATA-01 | Approve data sources and licences | Artem | In review | `docs/sources.csv` | Kaggle licence still needs a final manual check |
+| DATA-02 | Select and clean MSFT history | Artem | Done | `data/processed/msft_daily.csv` | 10,160 rows; 1986-03-13 to 2026-07-13 |
+| DATA-03 | Add SPY benchmark and align dates | Artem | Done | `data/processed/msft_spy_daily.csv` | 2,512 aligned rows; no nulls or duplicate dates |
+| DATA-04 | Create teacher-facing reproducibility log | Artem | Done | local `worklog/MarketLens_full_worklog.ipynb` | Ignored by Git; upload to Drive/Colab manually |
+| ML-01 | Create chronological features and target | Artem | To do |  | Next task: `02_baseline.ipynb` |
+| WEB-01 | Create Vue UI shell and disclaimer | Stepan | To do |  |  |
 
 ## Daily check-in
 

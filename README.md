@@ -4,13 +4,15 @@ An educational web application that analyses historical market signals. It does 
 
 ## MVP
 
-For a fixed set of liquid US-company tickers, MarketLens predicts one of three experimental next-five-trading-day outcomes relative to SPY:
+For Microsoft stock (`MSFT`) only, MarketLens predicts one of three experimental next-five-trading-day outcomes relative to SPY:
 
 - `outperform` — more than 1% above SPY;
 - `neutral` — within ±1% of SPY;
 - `underperform` — more than 1% below SPY.
 
-The first model uses only information available before its prediction: price/volume features, market features, and—only when sufficient timestamped historical coverage exists—news sentiment.
+The first model uses only information available before its prediction: MSFT price/volume features, SPY market features, and—only when sufficient timestamped historical coverage exists—news sentiment.
+
+Historical Kaggle data provides a reproducible training snapshot. A separate, key-protected end-of-day collector will refresh MSFT and SPY after market close; its newest values must never be added to the held-out test period without recording a new dataset version.
 
 ## Project rules
 

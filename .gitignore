@@ -8,6 +8,9 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/msft_daily.csv
+!data/processed/spy_daily.csv
+!data/processed/msft_spy_daily.csv
 models/*
 !models/.gitkeep
 
@@ -17,6 +20,9 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
+
+# Local teacher-facing audit trail (upload to Drive/Colab manually)
+worklog/
 
 # JavaScript
 node_modules/
