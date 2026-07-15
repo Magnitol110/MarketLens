@@ -8,3 +8,5 @@
 | 2026-07-14 | Use a static historical snapshot for training and a separate end-of-day collector for freshness. | Prevents a stale Kaggle dataset from being presented as current 2026 data. | Artem and Stepan |
 | 2026-07-14 | Select `MSFT_1986-03-13_2025-07-14.csv` from the supplied archive and backfill with Nasdaq data. | It has the earliest valid MSFT start and the latest actual archive date; the file labelled 1973 actually begins in 1996. | Artem |
 | 2026-07-14 | Keep only MSFT as the predicted company and SPY as a benchmark. | Ten years of aligned MSFT/SPY data are sufficient for the four-day baseline; more companies would expand scope without helping the stated MVP. | Artem and Stepan |
+| 2026-07-15 | Build the target from 5-trading-day MSFT excess return over SPY with ±1% class thresholds. | Produces three interpretable classes while avoiding direct buy/sell wording. | Artem |
+| 2026-07-15 | Use chronological 70/15/15 splits and purge five rows before validation and test. | Prevents 5-day target windows from crossing evaluation boundaries. | Artem |

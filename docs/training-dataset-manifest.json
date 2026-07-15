@@ -1,0 +1,83 @@
+{
+  "input": "data/processed/msft_spy_daily.csv",
+  "input_sha256": "c000ec0a70a11e04c77eac543fc5e2bdf388aca356340a6a25ecbd7829384797",
+  "output": "data/processed/training_features.csv",
+  "rows": 2477,
+  "feature_count": 36,
+  "first_date": "2016-08-10",
+  "last_date": "2026-07-06",
+  "target": "MSFT 5-trading-day return minus SPY 5-trading-day return",
+  "class_threshold": 0.01,
+  "horizon_trading_days": 5,
+  "split_method": "chronological 70/15/15 with 5-row purge before validation and test",
+  "splits": {
+    "train": {
+      "rows": 1735,
+      "first_date": "2016-08-10",
+      "last_date": "2023-07-03",
+      "class_counts": {
+        "neutral": 736,
+        "outperform": 602,
+        "underperform": 397
+      }
+    },
+    "validation": {
+      "rows": 368,
+      "first_date": "2023-07-12",
+      "last_date": "2024-12-24",
+      "class_counts": {
+        "neutral": 134,
+        "underperform": 119,
+        "outperform": 115
+      }
+    },
+    "test": {
+      "rows": 374,
+      "first_date": "2025-01-03",
+      "last_date": "2026-07-06",
+      "class_counts": {
+        "underperform": 144,
+        "neutral": 128,
+        "outperform": 102
+      }
+    }
+  },
+  "feature_columns": [
+    "msft_return_1d",
+    "msft_gap_return",
+    "msft_intraday_return",
+    "msft_range_pct",
+    "msft_return_5d",
+    "msft_ma_ratio_5d",
+    "msft_volatility_5d",
+    "msft_return_10d",
+    "msft_ma_ratio_10d",
+    "msft_volatility_10d",
+    "msft_return_20d",
+    "msft_ma_ratio_20d",
+    "msft_volatility_20d",
+    "msft_volume_ratio_20d",
+    "spy_return_1d",
+    "spy_gap_return",
+    "spy_intraday_return",
+    "spy_range_pct",
+    "spy_return_5d",
+    "spy_ma_ratio_5d",
+    "spy_volatility_5d",
+    "spy_return_10d",
+    "spy_ma_ratio_10d",
+    "spy_volatility_10d",
+    "spy_return_20d",
+    "spy_ma_ratio_20d",
+    "spy_volatility_20d",
+    "spy_volume_ratio_20d",
+    "excess_return_1d",
+    "excess_return_5d",
+    "excess_return_10d",
+    "excess_return_20d",
+    "day_of_week_sin",
+    "day_of_week_cos",
+    "month_sin",
+    "month_cos"
+  ]
+}

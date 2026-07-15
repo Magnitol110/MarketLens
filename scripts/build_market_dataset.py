@@ -13,8 +13,17 @@ RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
 
 MSFT_KAGGLE = RAW_DIR / "msft_kaggle_1986-03-13_2025-07-11.csv"
-MSFT_NASDAQ = RAW_DIR / "msft_nasdaq_2025-07-12_2026-07-14.json"
-SPY_NASDAQ = RAW_DIR / "spy_nasdaq_1993-01-29_2026-07-14.json"
+
+
+def latest_snapshot(pattern: str) -> Path:
+    candidates = sorted(RAW_DIR.glob(pattern))
+    if not candidates:
+        raise FileNotFoundError(f"No raw snapshot matches {pattern} in {RAW_DIR}")
+    return candidates[-1]
+
+
+MSFT_NASDAQ = latest_snapshot("msft_nasdaq_*.json")
+SPY_NASDAQ = latest_snapshot("spy_nasdaq_*.json")
 
 PRICE_COLUMNS = ["open", "high", "low", "close"]
 

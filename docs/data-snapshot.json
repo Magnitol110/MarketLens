@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-07-15T09:20:23.104567+00:00",
+  "sources": [
+    {
+      "name": "Kaggle Microsoft Complete Stocks Data",
+      "url": "https://www.kaggle.com/datasets/matiflatif/microsoft-complete-stocks-dataweekly-updated",
+      "raw_file": "data/raw/msft_kaggle_1986-03-13_2025-07-11.csv",
+      "sha256": "352ad480d66690ccd42bb65b5c63110aaa431fa837ac4bcbd858f345b3ce37b8",
+      "actual_min_date": "1986-03-13",
+      "actual_max_date": "2025-07-11"
+    },
+    {
+      "name": "Nasdaq MSFT Historical",
+      "url": "https://www.nasdaq.com/market-activity/stocks/msft/historical",
+      "raw_file": "data/raw/msft_nasdaq_2025-07-12_2026-07-14.json",
+      "sha256": "4c4ccc54b81c3355d6854448dbaf84928cce392496e4c82a91aea74b08952b61"
+    },
+    {
+      "name": "Nasdaq SPY Historical",
+      "url": "https://www.nasdaq.com/market-activity/etf/spy/historical",
+      "raw_file": "data/raw/spy_nasdaq_1993-01-29_2026-07-14.json",
+      "sha256": "0bf68434c0342baca866ea3429eb04e4d5052cf9d8f7a3fc6be0bf7bd715b7e6"
+    }
+  ]
+}

@@ -10,8 +10,8 @@ After a meaningful change: save the notebook in Colab, save a copy to GitHub, ad
 
 | Notebook | Purpose | Output |
 | --- | --- | --- |
-| `00_sources.ipynb` | Record sources, download the historical MSFT/SPY snapshot, and run the daily collector manually while it is being tested. | Untouched date-stamped raw files and updated `docs/sources.csv`. |
-| `01_cleaning_eda.ipynb` | Validate OHLCV columns, remove duplicates, sort dates, check gaps, and create lagged features. | Clean chronological table in `data/processed/` and EDA charts. |
+| `00_sources.ipynb` | Compare Kaggle candidates by actual dates, download current Nasdaq MSFT/SPY data, calculate SHA-256 hashes, and rebuild clean prices. | Date-stamped raw files, `docs/data-snapshot.json`, and clean price tables. |
+| `01_cleaning_eda.ipynb` | Create leakage-safe returns, moving-average, volatility, volume, relative-market, and calendar features; then create the 5-day target and purged chronological splits. | Training-ready `data/processed/training_features.csv` and `docs/training-dataset-manifest.json`. |
 | `02_baseline.ipynb` | Train the simplest price-only baseline using chronological train/validation/test periods. | Baseline macro F1, accuracy, and confusion matrix. |
 | `03_final_model.ipynb` | Train the selected model with only approved pre-prediction features; optionally add news only after its history is validated. | Versioned model artifact and experiment-log entry. |
 | `04_evaluation.ipynb` | Compare final model with the baseline on the untouched test period and prepare presentation examples. | Final metrics, successful/failure cases, and limitations. |
