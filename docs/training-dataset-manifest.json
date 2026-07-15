@@ -1,11 +1,11 @@
 {
   "input": "data/processed/msft_spy_daily.csv",
-  "input_sha256": "c000ec0a70a11e04c77eac543fc5e2bdf388aca356340a6a25ecbd7829384797",
+  "input_sha256": "304869f402f18bbcc24b07bae9a156af66f78f53df1ddb6db82fe6f9e5d3402d",
   "output": "data/processed/training_features.csv",
   "rows": 2477,
   "feature_count": 36,
-  "first_date": "2016-08-10",
-  "last_date": "2026-07-06",
+  "first_date": "2016-08-11",
+  "last_date": "2026-07-07",
   "target": "MSFT 5-trading-day return minus SPY 5-trading-day return",
   "class_threshold": 0.01,
   "horizon_trading_days": 5,
@@ -13,31 +13,31 @@
   "splits": {
     "train": {
       "rows": 1735,
-      "first_date": "2016-08-10",
-      "last_date": "2023-07-03",
+      "first_date": "2016-08-11",
+      "last_date": "2023-07-05",
       "class_counts": {
-        "neutral": 736,
+        "neutral": 737,
         "outperform": 602,
-        "underperform": 397
+        "underperform": 396
       }
     },
     "validation": {
       "rows": 368,
-      "first_date": "2023-07-12",
-      "last_date": "2024-12-24",
+      "first_date": "2023-07-13",
+      "last_date": "2024-12-26",
       "class_counts": {
         "neutral": 134,
-        "underperform": 119,
-        "outperform": 115
+        "underperform": 120,
+        "outperform": 114
       }
     },
     "test": {
       "rows": 374,
-      "first_date": "2025-01-03",
-      "last_date": "2026-07-06",
+      "first_date": "2025-01-06",
+      "last_date": "2026-07-07",
       "class_counts": {
-        "underperform": 144,
-        "neutral": 128,
+        "underperform": 145,
+        "neutral": 127,
         "outperform": 102
       }
     }

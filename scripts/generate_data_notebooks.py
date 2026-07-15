@@ -78,13 +78,15 @@ import pandas as pd
 RAW = ROOT / "data" / "raw"
 DOCS = ROOT / "docs"
 RAW.mkdir(parents=True, exist_ok=True)
-REFRESH_FROM_WEB = IN_COLAB
-print("Refresh from web:", REFRESH_FROM_WEB)'''),
+REFRESH_KAGGLE = IN_COLAB
+REFRESH_NASDAQ = IN_COLAB or os.environ.get("MARKETLENS_REFRESH_NASDAQ") == "1"
+print("Refresh Kaggle:", REFRESH_KAGGLE)
+print("Refresh Nasdaq:", REFRESH_NASDAQ)'''),
     markdown('''## 1. Завантаження та порівняння Kaggle CSV
 
 У Colab notebook автоматично встановлює `kagglehub` і завантажує публічний набір. Локально він використовує вже зафіксований raw-файл.
 '''),
-    code('''if REFRESH_FROM_WEB:
+    code('''if REFRESH_KAGGLE:
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "kagglehub"], check=True)
     import kagglehub
     kaggle_dir = Path(kagglehub.dataset_download("matiflatif/microsoft-complete-stocks-dataweekly-updated"))
@@ -149,10 +151,10 @@ API-запит використовує ISO-дати. Якщо Nasdaq тимча
 today = date.today()
 existing_msft = sorted(RAW.glob("msft_nasdaq_*.json"))
 existing_spy = sorted(RAW.glob("spy_nasdaq_*.json"))
-msft_json = RAW / f"msft_nasdaq_2025-07-12_{today.isoformat()}.json" if REFRESH_FROM_WEB else existing_msft[-1]
-spy_json = RAW / f"spy_nasdaq_recent_{today.isoformat()}.json" if REFRESH_FROM_WEB else existing_spy[-1]
+msft_json = RAW / f"msft_nasdaq_2025-07-12_{today.isoformat()}.json" if REFRESH_NASDAQ else existing_msft[-1]
+spy_json = RAW / f"spy_nasdaq_recent_{today.isoformat()}.json" if REFRESH_NASDAQ else existing_spy[-1]
 
-if REFRESH_FROM_WEB:
+if REFRESH_NASDAQ:
     msft_rows = download_nasdaq("MSFT", "stocks", date(2025, 7, 12), today, msft_json)
     spy_rows = download_nasdaq("SPY", "etf", today - timedelta(days=3653), today, spy_json)
     print("Downloaded Nasdaq rows:", {"MSFT": msft_rows, "SPY": spy_rows})

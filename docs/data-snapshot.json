@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-07-15T09:20:23.104567+00:00",
+  "created_at_utc": "2026-07-15T11:22:37.313520+00:00",
   "sources": [
     {
       "name": "Kaggle Microsoft Complete Stocks Data",
@@ -12,14 +12,14 @@
     {
       "name": "Nasdaq MSFT Historical",
       "url": "https://www.nasdaq.com/market-activity/stocks/msft/historical",
-      "raw_file": "data/raw/msft_nasdaq_2025-07-12_2026-07-14.json",
-      "sha256": "4c4ccc54b81c3355d6854448dbaf84928cce392496e4c82a91aea74b08952b61"
+      "raw_file": "data/raw/msft_nasdaq_2025-07-12_2026-07-15.json",
+      "sha256": "681e995d2cb9582d74a5c39e2a20048173aff660aa41efbd775dad2149742dac"
     },
     {
       "name": "Nasdaq SPY Historical",
       "url": "https://www.nasdaq.com/market-activity/etf/spy/historical",
-      "raw_file": "data/raw/spy_nasdaq_1993-01-29_2026-07-14.json",
-      "sha256": "0bf68434c0342baca866ea3429eb04e4d5052cf9d8f7a3fc6be0bf7bd715b7e6"
+      "raw_file": "data/raw/spy_nasdaq_recent_2026-07-15.json",
+      "sha256": "3a58eb8b4bf270817632420ccf6e73a0542c04f6a6f0c19c59202494dd5a1c6e"
     }
   ]
 }
