@@ -1,0 +1,101 @@
+{
+  "evaluation_id": "held_out_test_001",
+  "frozen_model_experiment_id": "gpu_mlp_001",
+  "test_period": {
+    "first_date": "2025-01-06",
+    "last_date": "2026-07-07",
+    "rows": 374
+  },
+  "primary_metric": "macro_f1",
+  "comparison": [
+    {
+      "model": "GPU MLP",
+      "accuracy": 0.3582887700534759,
+      "balanced_accuracy": 0.3888757566561787,
+      "macro_f1": 0.33882402001668055,
+      "weighted_f1": 0.3297941020369024
+    },
+    {
+      "model": "Histogram gradient boosting",
+      "accuracy": 0.2967914438502674,
+      "balanced_accuracy": 0.32279365180772285,
+      "macro_f1": 0.28089929736007657,
+      "weighted_f1": 0.26911302312165286
+    },
+    {
+      "model": "Most-frequent dummy",
+      "accuracy": 0.339572192513369,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.16899534264803726,
+      "weighted_f1": 0.1721583570826262
+    }
+  ],
+  "mlp_macro_f1_bootstrap_95_ci": [
+    0.29176931798131184,
+    0.3855147685719197
+  ],
+  "mlp_minus_baseline_macro_f1_bootstrap_95_ci": [
+    0.004332412307051263,
+    0.11454553776395442
+  ],
+  "mlp_confusion_matrix": [
+    [
+      34,
+      35,
+      76
+    ],
+    [
+      25,
+      25,
+      77
+    ],
+    [
+      14,
+      13,
+      75
+    ]
+  ],
+  "labels": [
+    "underperform",
+    "neutral",
+    "outperform"
+  ],
+  "classification_report": {
+    "underperform": {
+      "precision": 0.4657534246575342,
+      "recall": 0.23448275862068965,
+      "f1-score": 0.3119266055045872,
+      "support": 145.0
+    },
+    "neutral": {
+      "precision": 0.3424657534246575,
+      "recall": 0.1968503937007874,
+      "f1-score": 0.25,
+      "support": 127.0
+    },
+    "outperform": {
+      "precision": 0.32894736842105265,
+      "recall": 0.7352941176470589,
+      "f1-score": 0.45454545454545453,
+      "support": 102.0
+    },
+    "accuracy": 0.3582887700534759,
+    "macro avg": {
+      "precision": 0.37905551550108146,
+      "recall": 0.3888757566561787,
+      "f1-score": 0.33882402001668055,
+      "support": 374.0
+    },
+    "weighted avg": {
+      "precision": 0.3865776172171694,
+      "recall": 0.3582887700534759,
+      "f1-score": 0.3297941020369024,
+      "support": 374.0
+    }
+  },
+  "portable_model": "backend\\marketlens_model.npz",
+  "figures": [
+    "docs\\figures\\test-model-comparison.png",
+    "docs\\figures\\test-confusion-matrix.png"
+  ]
+}

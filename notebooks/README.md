@@ -15,5 +15,6 @@ After a meaningful change: save the notebook in Colab, save a copy to GitHub, ad
 | `02_baseline.ipynb` | Train the simplest price-only baseline using chronological train/validation/test periods. | Baseline macro F1, accuracy, and confusion matrix. |
 | `03_final_model.ipynb` | Train the selected model with only approved pre-prediction features; optionally add news only after its history is validated. | Versioned model artifact and experiment-log entry. |
 | `04_evaluation.ipynb` | Compare final model with the baseline on the untouched test period and prepare presentation examples. | Final metrics, successful/failure cases, and limitations. |
+| `05_project_worklog.ipynb` | Teacher-facing, end-to-end explanation of sources, cleaning, features, training, testing, API, and Vue integration. | Executed audit trail of the complete project. |
 
 Do not use `04_evaluation.ipynb` to tune the model. If a daily collection produces new data, append it to a new dated raw snapshot and rerun the earlier notebooks deliberately.

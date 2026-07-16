@@ -12,6 +12,7 @@ data/processed/*
 !data/processed/spy_daily.csv
 !data/processed/msft_spy_daily.csv
 !data/processed/training_features.csv
+!data/processed/latest_features.csv
 models/*
 !models/.gitkeep
 

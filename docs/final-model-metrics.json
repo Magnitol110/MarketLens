@@ -1,0 +1,55 @@
+{
+  "experiment_id": "gpu_mlp_001",
+  "model": "MarketLensMLP",
+  "task": "three-class classification",
+  "seed": 42,
+  "device": "cuda",
+  "gpu_name": "Tesla T4",
+  "torch_version": "2.11.0+cu128",
+  "cuda_runtime": "12.8",
+  "best_epoch": 5,
+  "epochs_trained": 45,
+  "architecture": {
+    "input_size": 36,
+    "hidden_sizes": [
+      128,
+      64
+    ],
+    "dropout": 0.25,
+    "output_size": 3
+  },
+  "train_rows": 1735,
+  "validation_rows": 368,
+  "test_rows_untouched": 374,
+  "feature_count": 36,
+  "validation": {
+    "macro_f1": 0.34987131472317207,
+    "accuracy": 0.35597826086956524,
+    "balanced_accuracy": 0.3625054551802392,
+    "confusion_matrix": [
+      [
+        33,
+        35,
+        52
+      ],
+      [
+        26,
+        36,
+        72
+      ],
+      [
+        18,
+        34,
+        62
+      ]
+    ]
+  },
+  "input_file": "data/processed/training_features.csv",
+  "input_sha256": "fee053f6710f49b4ded4ea5d54a98d2ba5fc086d36ff3b5f3d38433eacc99974",
+  "weights_file": "models/marketlens_mlp_weights.pt",
+  "bundle_file": "models/marketlens_mlp_bundle.pt",
+  "code_files": [
+    "notebooks/03_final_model.ipynb",
+    "backend/model.py"
+  ]
+}

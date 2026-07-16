@@ -13,6 +13,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "data" / "processed" / "msft_spy_daily.csv"
 OUTPUT = ROOT / "data" / "processed" / "training_features.csv"
+LATEST_OUTPUT = ROOT / "data" / "processed" / "latest_features.csv"
 MANIFEST = ROOT / "docs" / "training-dataset-manifest.json"
 
 HORIZON = 5
@@ -28,7 +29,7 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def build_features(prices: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
+def build_features(prices: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, list[str]]:
     frame = prices.copy()
     frame["date"] = pd.to_datetime(frame["date"], errors="raise")
     frame = frame.sort_values("date").drop_duplicates("date", keep="last").reset_index(drop=True)
@@ -87,8 +88,9 @@ def build_features(prices: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
     target.loc[valid_target & future_excess.between(-THRESHOLD, THRESHOLD, inclusive="both")] = "neutral"
     frame["target_class"] = target
 
+    inference = frame[["date", *feature_columns]].dropna().reset_index(drop=True)
     training = frame[["date", *feature_columns, "target_class"]].dropna().reset_index(drop=True)
-    return training, feature_columns
+    return training, inference, feature_columns
 
 
 def add_purged_split(training: pd.DataFrame) -> pd.DataFrame:
@@ -121,7 +123,7 @@ def validate(training: pd.DataFrame, feature_columns: list[str]) -> None:
 
 def main() -> pd.DataFrame:
     prices = pd.read_csv(INPUT)
-    training, feature_columns = build_features(prices)
+    training, inference, feature_columns = build_features(prices)
     training = add_purged_split(training)
     validate(training, feature_columns)
 
@@ -129,6 +131,12 @@ def main() -> pd.DataFrame:
     ordered_columns = ["date", "split", *feature_columns, "target_class"]
     training = training[ordered_columns]
     training.to_csv(OUTPUT, index=False, float_format="%.8g")
+
+    latest = inference.tail(1).copy()
+    assert len(latest) == 1
+    assert np.isfinite(latest[feature_columns].to_numpy()).all()
+    latest["date"] = latest["date"].dt.strftime("%Y-%m-%d")
+    latest.to_csv(LATEST_OUTPUT, index=False, float_format="%.8g")
 
     split_summary = {}
     for split, part in training.groupby("split", sort=False):
@@ -143,6 +151,8 @@ def main() -> pd.DataFrame:
         "input": str(INPUT.relative_to(ROOT)).replace("\\", "/"),
         "input_sha256": sha256(INPUT),
         "output": str(OUTPUT.relative_to(ROOT)).replace("\\", "/"),
+        "latest_inference_output": str(LATEST_OUTPUT.relative_to(ROOT)).replace("\\", "/"),
+        "latest_inference_date": latest["date"].iloc[0],
         "rows": len(training),
         "feature_count": len(feature_columns),
         "first_date": training["date"].min(),

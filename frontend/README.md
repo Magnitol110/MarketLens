@@ -1,11 +1,23 @@
-# Frontend
+# MarketLens frontend
 
-Reserved for the Vue 3 + Vite application. It will show the model signal, snapshot date, input factors, limitations, and educational disclaimer.
+Vue 3 + TypeScript + Vite interface for the MarketLens API.
 
-## Technology choice
+## Local development
 
-- Vue 3
-- Vite
-- TypeScript
+```powershell
+npm install
+npm run dev
+```
 
-The frontend communicates only with the project’s read-only FastAPI endpoints. It must never execute trades, store financial-account data, or present its experimental signal as investment advice.
+Vite proxies `/api` to `http://127.0.0.1:8000`. To use a remote API, copy `.env.example` to `.env` and set `VITE_API_BASE_URL`.
+
+## Verification
+
+```powershell
+npm run build
+npm test -- --run
+```
+
+## Vercel
+
+Use `frontend` as the Root Directory, `npm run build` as the build command, and `dist` as the output directory. Add `VITE_API_BASE_URL` with the public Render API URL before deploying.

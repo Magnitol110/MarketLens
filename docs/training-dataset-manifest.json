@@ -2,6 +2,8 @@
   "input": "data/processed/msft_spy_daily.csv",
   "input_sha256": "304869f402f18bbcc24b07bae9a156af66f78f53df1ddb6db82fe6f9e5d3402d",
   "output": "data/processed/training_features.csv",
+  "latest_inference_output": "data/processed/latest_features.csv",
+  "latest_inference_date": "2026-07-14",
   "rows": 2477,
   "feature_count": 36,
   "first_date": "2016-08-11",
