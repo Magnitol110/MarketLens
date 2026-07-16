@@ -1,0 +1,64 @@
+{
+  "selected_model": "hist_gradient_boosting",
+  "selection_metric": "validation_macro_f1",
+  "validation_period": {
+    "first_date": "2023-07-13",
+    "last_date": "2024-12-26",
+    "rows": 368
+  },
+  "test_rows_untouched": 374,
+  "training_data_sha256": "7e05393e4f749699fc23568c6765f43b18472d83a95f729eb43047b4fd874792",
+  "feature_count": 36,
+  "results": [
+    {
+      "model": "hist_gradient_boosting",
+      "accuracy": 0.3532608695652174,
+      "balanced_accuracy": 0.35740595269267694,
+      "macro_f1": 0.3412422277275818,
+      "weighted_f1": 0.3399775999360054
+    },
+    {
+      "model": "logistic_regression",
+      "accuracy": 0.33152173913043476,
+      "balanced_accuracy": 0.33546303569869945,
+      "macro_f1": 0.32826356831791587,
+      "weighted_f1": 0.3272752547701834
+    },
+    {
+      "model": "random_forest",
+      "accuracy": 0.3423913043478261,
+      "balanced_accuracy": 0.35240027930522827,
+      "macro_f1": 0.3241012465505757,
+      "weighted_f1": 0.31890863731708224
+    },
+    {
+      "model": "dummy_most_frequent",
+      "accuracy": 0.3641304347826087,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.17795484727755642,
+      "weighted_f1": 0.19439632773254803
+    }
+  ],
+  "confusion_matrix_labels": [
+    "underperform",
+    "neutral",
+    "outperform"
+  ],
+  "confusion_matrix": [
+    [
+      24,
+      39,
+      57
+    ],
+    [
+      31,
+      44,
+      59
+    ],
+    [
+      13,
+      39,
+      62
+    ]
+  ]
+}

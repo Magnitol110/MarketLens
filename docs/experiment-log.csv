@@ -1,1 +1,2 @@
 run_id,date,notebook,data_snapshot,feature_set,split,model,parameters,validation_metric,test_metric,owner,notes
+baseline_001,2026-07-15,notebooks/02_baseline.ipynb,7e05393e4f749699fc23568c6765f43b18472d83a95f729eb43047b4fd874792,36_price_market_calendar_features,chronological_train_validation_with_5_day_purge,hist_gradient_boosting,"iter=200;lr=0.05;leaves=15;min_leaf=20;l2=1.0",macro_f1=0.3412,not_opened,Artem,Selected over dummy logistic regression and random forest using validation only
