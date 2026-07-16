@@ -1,0 +1,117 @@
+{"kind":"deck","id":"pr/0juzkn","name":"Deck"}
+{"kind":"layout","layoutId":"74f340f1-0152-44d8-bd1f-1685072dc0ac","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"594bad65-4b83-43c7-b7e8-2d561475cabe","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/pi7wc6","slide":1,"title":"MARKETLENS","textShapes":4}
+{"kind":"textbox","id":"sh/q9onatcz","slide":1,"text":"MARKETLENS","textPreview":"MARKETLENS","textChars":10,"textLines":1,"bbox":[42,38,400,55]}
+{"kind":"textbox","id":"sh/dcf65oba","slide":1,"text":"Від даних до\nпрацюючого AI-сигналу","textPreview":"Від даних до | працюючого AI-сигналу","textChars":34,"textLines":2,"bbox":[42,170,1030,250]}
+{"kind":"textbox","id":"sh/cb65cju5","slide":1,"text":"MSFT · 5 торгових днів · Vue + FastAPI + GPU MLP","textPreview":"MSFT · 5 торгових днів · Vue + FastAPI + GPU MLP","textChars":48,"textLines":1,"bbox":[42,505,940,70]}
+{"kind":"textbox","id":"sh/zexo7ytg","slide":1,"text":"Артем і Степан","textPreview":"Артем і Степан","textChars":14,"textLines":1,"bbox":[42,610,400,40]}
+{"kind":"notes","id":"nt/pi7wc6","slide":1,"text":""}
+{"kind":"slide","id":"sl/g9nxtd","slide":2,"title":"MarketLens відповідає на одне чітке питання","textShapes":12}
+{"kind":"textbox","id":"sh/krm1kryx","slide":2,"text":"MarketLens відповідає на одне чітке питання","textPreview":"MarketLens відповідає на одне чітке питання","textChars":43,"textLines":1,"bbox":[42,28,1120,92]}
+{"kind":"textbox","id":"sh/jqdkrmxc","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1184,660,54,22]}
+{"kind":"shape","id":"sh/yp4jihg7","slide":2,"bbox":[42,250,375,330]}
+{"kind":"textbox","id":"sh/xov2pcfm","slide":2,"text":"UNDERPERFORM","textPreview":"UNDERPERFORM","textChars":12,"textLines":1,"bbox":[67,280,325,50]}
+{"kind":"textbox","id":"sh/c3m1gry1","slide":2,"text":"MSFT відстає від SPY\nбільш ніж на 1%","textPreview":"MSFT відстає від SPY | більш ніж на 1%","textChars":36,"textLines":2,"bbox":[67,350,325,130]}
+{"kind":"textbox","id":"sh/b2tknmxg","slide":2,"text":"Горизонт: наступні 5 торгових днів","textPreview":"Горизонт: наступні 5 торгових днів","textChars":34,"textLines":1,"bbox":[67,510,325,50]}
+{"kind":"shape","id":"sh/a1kjehgv","slide":2,"bbox":[453,250,375,330]}
+{"kind":"textbox","id":"sh/p0b2lcfa","slide":2,"text":"NEUTRAL","textPreview":"NEUTRAL","textChars":7,"textLines":1,"bbox":[478,280,325,50]}
+{"kind":"textbox","id":"sh/oz21c7yp","slide":2,"text":"Різниця залишається\nв межах ±1%","textPreview":"Різниця залишається | в межах ±1%","textChars":31,"textLines":2,"bbox":[478,350,325,130]}
+{"kind":"textbox","id":"sh/a5ofm9wf","slide":2,"text":"Горизонт: наступні 5 торгових днів","textPreview":"Горизонт: наступні 5 торгових днів","textChars":34,"textLines":1,"bbox":[478,510,325,50]}
+{"kind":"shape","id":"sh/v6xwfex0","slide":2,"bbox":[864,250,375,330]}
+{"kind":"textbox","id":"sh/wr6xojel","slide":2,"text":"OUTPERFORM","textPreview":"OUTPERFORM","textChars":10,"textLines":1,"bbox":[889,280,325,50]}
+{"kind":"textbox","id":"sh/xsfehof6","slide":2,"text":"MSFT випереджає SPY\nбільш ніж на 1%","textPreview":"MSFT випереджає SPY | більш ніж на 1%","textChars":35,"textLines":2,"bbox":[889,350,325,130]}
+{"kind":"textbox","id":"sh/m14fi9wj","slide":2,"text":"Горизонт: наступні 5 торгових днів","textPreview":"Горизонт: наступні 5 торгових днів","textChars":34,"textLines":1,"bbox":[889,510,325,50]}
+{"kind":"textbox","id":"sh/n2dwbex4","slide":2,"text":"Модель прогнозує відносний результат, а не точну ціну та не фінансову пораду.","textPreview":"Модель прогнозує відносний результат, а не точну ціну та не фінансову пораду.","textChars":77,"textLines":1,"bbox":[42,130,1130,70]}
+{"kind":"notes","id":"nt/g9nxtd","slide":2,"text":""}
+{"kind":"slide","id":"sl/kqgh92","slide":3,"title":"Хронологічний поділ не дозволяє моделі «побачити майбутнє»","textShapes":12}
+{"kind":"textbox","id":"sh/ixg7ydk3","slide":3,"text":"Хронологічний поділ не дозволяє моделі «побачити майбутнє»","textPreview":"Хронологічний поділ не дозволяє моделі «побачити майбутнє»","textChars":58,"textLines":1,"bbox":[42,28,1120,92]}
+{"kind":"textbox","id":"sh/50r6t8ju","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1184,660,54,22]}
+{"kind":"shape","id":"sh/4zip0n29","slide":3,"bbox":[55,350,1120,0]}
+{"kind":"shape","id":"sh/r29ovi10","slide":3,"bbox":[90,340,20,20]}
+{"kind":"textbox","id":"sh/61072dkf","slide":3,"text":"TRAIN","textPreview":"TRAIN","textChars":5,"textLines":1,"bbox":[90,280,250,40]}
+{"kind":"textbox","id":"sh/t4rqxsjq","slide":3,"text":"2016–2022","textPreview":"2016–2022","textChars":9,"textLines":1,"bbox":[90,390,280,45]}
+{"kind":"textbox","id":"sh/s3ip4n2l","slide":3,"text":"Навчання ваг\nі масштабування","textPreview":"Навчання ваг | і масштабування","textChars":28,"textLines":2,"bbox":[90,445,280,100]}
+{"kind":"shape","id":"sh/765ojy1g","slide":3,"bbox":[470,340,20,20]}
+{"kind":"textbox","id":"sh/m5w7qtkb","slide":3,"text":"VALIDATION","textPreview":"VALIDATION","textChars":10,"textLines":1,"bbox":[470,280,250,40]}
+{"kind":"textbox","id":"sh/8vytcrep","slide":3,"text":"2023–2024","textPreview":"2023–2024","textChars":9,"textLines":1,"bbox":[470,390,280,45]}
+{"kind":"textbox","id":"sh/9w7u5wfa","slide":3,"text":"Вибір рішення\nбез дотику до тесту","textPreview":"Вибір рішення | без дотику до тесту","textChars":33,"textLines":2,"bbox":[470,445,280,100]}
+{"kind":"shape","id":"sh/mtgbahwj","slide":3,"bbox":[850,340,20,20]}
+{"kind":"textbox","id":"sh/7upc3mx4","slide":3,"text":"TEST","textPreview":"TEST","textChars":4,"textLines":1,"bbox":[850,280,250,40]}
+{"kind":"textbox","id":"sh/wzytgbel","slide":3,"text":"2025–07.07.2026","textPreview":"2025–07.07.2026","textChars":15,"textLines":1,"bbox":[850,390,280,45]}
+{"kind":"textbox","id":"sh/h0ru9wf6","slide":3,"text":"374 рядки\nлише фінальна оцінка","textPreview":"374 рядки | лише фінальна оцінка","textChars":30,"textLines":2,"bbox":[850,445,280,100]}
+{"kind":"textbox","id":"sh/uxgbe1wf","slide":3,"text":"Ознаки використовують тільки інформацію, доступну до моменту прогнозу.","textPreview":"Ознаки використовують тільки інформацію, доступну до моменту прогнозу.","textChars":70,"textLines":1,"bbox":[42,135,1120,65]}
+{"kind":"notes","id":"nt/kqgh92","slide":3,"text":""}
+{"kind":"slide","id":"sl/l6c6t4","slide":4,"title":"GPU навчає модель, а сайт запускає її без GPU","textShapes":14}
+{"kind":"textbox","id":"sh/fyt47ex8","slide":4,"text":"GPU навчає модель, а сайт запускає її без GPU","textPreview":"GPU навчає модель, а сайт запускає її без GPU","textChars":45,"textLines":1,"bbox":[42,28,1120,92]}
+{"kind":"textbox","id":"sh/gz25gjet","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1184,660,54,22]}
+{"kind":"shape","id":"sh/10bm9ofe","slide":4,"bbox":[42,260,255,220]}
+{"kind":"textbox","id":"sh/6903apgr","slide":4,"text":"36 ознак","textPreview":"36 ознак","textChars":8,"textLines":1,"bbox":[62,290,215,55]}
+{"kind":"textbox","id":"sh/ra943uxc","slide":4,"text":"доходності · обсяг · волатильність","textPreview":"доходності · обсяг · волатильність","textChars":34,"textLines":1,"bbox":[62,365,215,80]}
+{"kind":"textbox","id":"sh/sbi5czyx","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[302,330,40,50]}
+{"kind":"shape","id":"sh/tcbm54fi","slide":4,"bbox":[342,260,255,220]}
+{"kind":"textbox","id":"sh/i5036pgv","slide":4,"text":"GPU MLP","textPreview":"GPU MLP","textChars":7,"textLines":1,"bbox":[362,290,215,55]}
+{"kind":"textbox","id":"sh/j694zux0","slide":4,"text":"2 приховані шари + BatchNorm","textPreview":"2 приховані шари + BatchNorm","textChars":28,"textLines":1,"bbox":[362,365,215,80]}
+{"kind":"textbox","id":"sh/zehcbqls","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[602,330,40,50]}
+{"kind":"shape","id":"sh/ydob25k7","slide":4,"bbox":[642,260,255,220]}
+{"kind":"textbox","id":"sh/lgzud03y","slide":4,"text":"55 КіБ NumPy","textPreview":"55 КіБ NumPy","textChars":12,"textLines":1,"bbox":[662,290,215,55]}
+{"kind":"textbox","id":"sh/kfqt4v2d","slide":4,"text":"компактні ваги для API","textPreview":"компактні ваги для API","textChars":22,"textLines":1,"bbox":[662,365,215,80]}
+{"kind":"textbox","id":"sh/7ihcfalo","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[902,330,40,50]}
+{"kind":"shape","id":"sh/6h8b65kj","slide":4,"bbox":[942,260,255,220]}
+{"kind":"textbox","id":"sh/t4zuhk3u","slide":4,"text":"3 ймовірності","textPreview":"3 ймовірності","textChars":13,"textLines":1,"bbox":[962,290,215,55]}
+{"kind":"textbox","id":"sh/83qt8f29","slide":4,"text":"сигнал + confidence","textPreview":"сигнал + confidence","textChars":19,"textLines":1,"bbox":[962,365,215,80]}
+{"kind":"textbox","id":"sh/nmds36lk","slide":4,"text":"Один і той самий frozen model перевірено: NumPy-результати збігаються з PyTorch на всьому тесті.","textPreview":"Один і той самий frozen model перевірено: NumPy-результати збігаються з PyTorch на всьому тесті.","textChars":96,"textLines":1,"bbox":[42,545,1130,65]}
+{"kind":"notes","id":"nt/l6c6t4","slide":4,"text":""}
+{"kind":"slide","id":"sl/7lve9p","slide":5,"title":"Модель краща за базові рішення, але якість ще помірна","textShapes":4}
+{"kind":"textbox","id":"sh/rydwvydc","slide":5,"text":"Модель краща за базові рішення, але якість ще помірна","textPreview":"Модель краща за базові рішення, але якість ще помірна","textChars":53,"textLines":1,"bbox":[42,28,1120,92]}
+{"kind":"textbox","id":"sh/szmd43ux","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1184,660,54,22]}
+{"kind":"textbox","id":"sh/f2dwzito","slide":5,"text":"Macro-F1: MLP 0,339 · дерево 0,281 · dummy 0,169","textPreview":"Macro-F1: MLP 0,339 · дерево 0,281 · dummy 0,169","textChars":48,"textLines":1,"bbox":[55,590,1130,45]}
+{"kind":"textbox","id":"sh/03md8nut","slide":5,"text":"Тому сайт називає результат експериментальним сигналом, а не рекомендацією.","textPreview":"Тому сайт називає результат експериментальним сигналом, а не рекомендацією.","textChars":75,"textLines":1,"bbox":[55,635,1130,30]}
+{"kind":"image","id":"im/ozytgvat","slide":5,"name":"","alt":"Macro-F1 comparison on chronological test","bbox":[35,125,590,460]}
+{"kind":"image","id":"im/bmpsra94","slide":5,"name":"","alt":"Confusion matrix on chronological test","bbox":[655,125,570,460]}
+{"kind":"notes","id":"nt/7lve9p","slide":5,"text":""}
+{"kind":"slide","id":"sl/blt955","slide":6,"title":"Повний шлях прогнозу вже працює у вебпродукті","textShapes":14}
+{"kind":"textbox","id":"sh/vqts7ah0","slide":6,"text":"Повний шлях прогнозу вже працює у вебпродукті","textPreview":"Повний шлях прогнозу вже працює у вебпродукті","textChars":45,"textLines":1,"bbox":[42,28,1120,92]}
+{"kind":"textbox","id":"sh/wr2tgfyl","slide":6,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1184,660,54,22]}
+{"kind":"shape","id":"sh/hsba90z6","slide":6,"bbox":[70,245,310,250]}
+{"kind":"textbox","id":"sh/itkbi5gb","slide":6,"text":"VUE 3","textPreview":"VUE 3","textChars":5,"textLines":1,"bbox":[95,280,260,50]}
+{"kind":"textbox","id":"sh/jutsbahw","slide":6,"text":"свічки · dashboard\nprobabilities","textPreview":"свічки · dashboard | probabilities","textChars":32,"textLines":2,"bbox":[95,350,260,90]}
+{"kind":"textbox","id":"sh/4v2tkfyh","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[395,330,60,60]}
+{"kind":"shape","id":"sh/5wbadkz2","slide":6,"bbox":[475,245,310,250]}
+{"kind":"textbox","id":"sh/6x4bmpgn","slide":6,"text":"FASTAPI","textPreview":"FASTAPI","textChars":7,"textLines":1,"bbox":[500,280,260,50]}
+{"kind":"textbox","id":"sh/rydsfuh8","slide":6,"text":"history · assets\npredict","textPreview":"history · assets | predict","textChars":24,"textLines":2,"bbox":[500,350,260,90]}
+{"kind":"textbox","id":"sh/b6t4zqx4","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[800,330,60,60]}
+{"kind":"shape","id":"sh/q5kn65gj","slide":6,"bbox":[880,245,310,250]}
+{"kind":"textbox","id":"sh/d8vm10fa","slide":6,"text":"NUMPY MODEL","textPreview":"NUMPY MODEL","textChars":11,"textLines":1,"bbox":[905,280,260,50]}
+{"kind":"textbox","id":"sh/c7258vyp","slide":6,"text":"36 ознак →\n3 класи","textPreview":"36 ознак → | 3 класи","textChars":18,"textLines":2,"bbox":[905,350,260,90]}
+{"kind":"textbox","id":"sh/32t4vqx8","slide":6,"text":"Vercel","textPreview":"Vercel","textChars":6,"textLines":1,"bbox":[70,535,310,45]}
+{"kind":"textbox","id":"sh/2hkn2lgn","slide":6,"text":"Render","textPreview":"Render","textChars":6,"textLines":1,"bbox":[475,535,310,45]}
+{"kind":"textbox","id":"sh/p4bmx0fy","slide":6,"text":"55 КіБ · CPU inference","textPreview":"55 КіБ · CPU inference","textChars":22,"textLines":1,"bbox":[880,535,310,45]}
+{"kind":"textbox","id":"sh/o3254vyt","slide":6,"text":"API та frontend мають тести; місяці на графіку відображаються англійською.","textPreview":"API та frontend мають тести; місяці на графіку відображаються англійською.","textChars":74,"textLines":1,"bbox":[42,135,1130,60]}
+{"kind":"notes","id":"nt/blt955","slide":6,"text":""}
+{"kind":"slide","id":"sl/hugyvt","slide":7,"title":"Чотири контрольні точки мають конкретних власників","textShapes":14}
+{"kind":"textbox","id":"sh/xcbihcvy","slide":7,"text":"Чотири контрольні точки мають конкретних власників","textPreview":"Чотири контрольні точки мають конкретних власників","textChars":50,"textLines":1,"bbox":[42,28,1120,92]}
+{"kind":"textbox","id":"sh/ap0zmxcn","slide":7,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1184,660,54,22]}
+{"kind":"shape","id":"sh/bq90f2d8","slide":7,"bbox":[42,155,570,200]}
+{"kind":"textbox","id":"sh/onihk7uh","slide":7,"text":"САЙТ","textPreview":"САЙТ","textChars":4,"textLines":1,"bbox":[67,177,220,38]}
+{"kind":"textbox","id":"sh/9oridcv2","slide":7,"text":"Степан","textPreview":"Степан","textChars":6,"textLines":1,"bbox":[67,225,220,55]}
+{"kind":"textbox","id":"sh/ml0zixcb","slide":7,"text":"фінальний UI · demo","textPreview":"фінальний UI · demo","textChars":19,"textLines":1,"bbox":[302,210,275,90]}
+{"kind":"shape","id":"sh/nm90b2dw","slide":7,"bbox":[652,155,570,200]}
+{"kind":"textbox","id":"sh/0jyhgnu5","slide":7,"text":"МОДЕЛЬ","textPreview":"МОДЕЛЬ","textChars":6,"textLines":1,"bbox":[677,177,220,38]}
+{"kind":"textbox","id":"sh/1kri9svq","slide":7,"text":"Артем","textPreview":"Артем","textChars":5,"textLines":1,"bbox":[677,225,220,55]}
+{"kind":"textbox","id":"sh/90fe9kn2","slide":7,"text":"notebooks · метрики","textPreview":"notebooks · метрики","textChars":19,"textLines":1,"bbox":[912,210,275,90]}
+{"kind":"shape","id":"sh/8z6xgf6h","slide":7,"bbox":[42,390,570,200]}
+{"kind":"textbox","id":"sh/nyxw7a5w","slide":7,"text":"ВИСТУП","textPreview":"ВИСТУП","textChars":6,"textLines":1,"bbox":[67,412,220,38]}
+{"kind":"textbox","id":"sh/mxofe5ob","slide":7,"text":"Разом","textPreview":"Разом","textChars":5,"textLines":1,"bbox":[67,460,220,55]}
+{"kind":"textbox","id":"sh/lwfe50nq","slide":7,"text":"Степан: продукт\nАртем: AI","textPreview":"Степан: продукт | Артем: AI","textChars":25,"textLines":2,"bbox":[302,445,275,90]}
+{"kind":"shape","id":"sh/0b6dcv6l","slide":7,"bbox":[652,390,570,200]}
+{"kind":"textbox","id":"sh/zaxw3a50","slide":7,"text":"ДЕПЛОЙ","textPreview":"ДЕПЛОЙ","textChars":6,"textLines":1,"bbox":[677,412,220,38]}
+{"kind":"textbox","id":"sh/y9ova5of","slide":7,"text":"Разом","textPreview":"Разом","textChars":5,"textLines":1,"bbox":[677,460,220,55]}
+{"kind":"textbox","id":"sh/d8ve10nu","slide":7,"text":"Vercel + Render","textPreview":"Vercel + Render","textChars":15,"textLines":1,"bbox":[912,445,275,90]}
+{"kind":"notes","id":"nt/hugyvt","slide":7,"text":""}
+{"kind":"slide","id":"sl/blw211","slide":8,"title":"ВИСНОВОК","textShapes":4}
+{"kind":"textbox","id":"sh/p03y1gfi","slide":8,"text":"ВИСНОВОК","textPreview":"ВИСНОВОК","textChars":8,"textLines":1,"bbox":[42,38,300,45]}
+{"kind":"textbox","id":"sh/2xcfqlw7","slide":8,"text":"Ми побудували не просто модель,\nа відтворюваний AI-продукт.","textPreview":"Ми побудували не просто модель, | а відтворюваний AI-продукт.","textChars":59,"textLines":2,"bbox":[42,155,1090,230]}
+{"kind":"textbox","id":"sh/3ylgz6xc","slide":8,"text":"дані → чесний тест → API → сайт → публічний деплой","textPreview":"дані → чесний тест → API → сайт → публічний деплой","textChars":50,"textLines":1,"bbox":[42,485,1030,65]}
+{"kind":"textbox","id":"sh/c3uxwve9","slide":8,"text":"Наступний крок: нові тикери та щоденне оновлення після закриття біржі.","textPreview":"Наступний крок: нові тикери та щоденне оновлення після закриття біржі.","textChars":70,"textLines":1,"bbox":[42,590,1080,40]}
+{"kind":"notes","id":"nt/blw211","slide":8,"text":""}

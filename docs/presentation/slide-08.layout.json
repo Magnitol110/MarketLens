@@ -1,0 +1,369 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/blw211",
+    "id": "blw211",
+    "slide": 8,
+    "layoutId": "594bad65-4b83-43c7-b7e8-2d561475cabe",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "74f340f1-0152-44d8-bd1f-1685072dc0ac",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "594bad65-4b83-43c7-b7e8-2d561475cabe",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "74f340f1-0152-44d8-bd1f-1685072dc0ac",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "74f340f1-0152-44d8-bd1f-1685072dc0ac",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p03y1gfi",
+      "id": "1",
+      "bbox": [
+        42,
+        38,
+        300,
+        45
+      ],
+      "geometry": "rect",
+      "text": "ВИСНОВОК",
+      "textPreview": "ВИСНОВОК",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Arial",
+        "color": "#3D8DFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ВИСНОВОК"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ВИСНОВОК",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Arial",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ВИСНОВОК",
+              "fontSize": 22,
+              "typeface": "Arial",
+              "color": "#3D8DFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2xcfqlw7",
+      "id": "2",
+      "bbox": [
+        42,
+        155,
+        1090,
+        230
+      ],
+      "geometry": "rect",
+      "text": "Ми побудували не просто модель,\nа відтворюваний AI-продукт.",
+      "textPreview": "Ми побудували не просто модель, | а відтворюваний AI-продукт.",
+      "resolvedFontSize": 62.32,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 63,
+        "typeface": "Arial",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.99,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ми побудували не просто"
+          },
+          {
+            "index": 2,
+            "text": "модель,"
+          },
+          {
+            "index": 3,
+            "text": "а відтворюваний AI-продукт."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ми побудували не просто модель,",
+          "resolvedTextStyle": {
+            "fontSize": 63,
+            "typeface": "Arial",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ми побудували не просто модель,",
+              "fontSize": 63,
+              "typeface": "Arial",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "а відтворюваний AI-продукт.",
+          "resolvedTextStyle": {
+            "fontSize": 63,
+            "typeface": "Arial",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "а відтворюваний AI-продукт.",
+              "fontSize": 63,
+              "typeface": "Arial",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylgz6xc",
+      "id": "3",
+      "bbox": [
+        42,
+        485,
+        1030,
+        65
+      ],
+      "geometry": "rect",
+      "text": "дані → чесний тест → API → сайт → публічний деплой",
+      "textPreview": "дані → чесний тест → API → сайт → публічний деплой",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 27,
+        "typeface": "Arial",
+        "color": "#666666",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "дані → чесний тест → API → сайт → публічний деплой"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "дані → чесний тест → API → сайт → публічний деплой",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Arial",
+            "color": "#666666",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "дані → чесний тест → API → сайт → публічний деплой",
+              "fontSize": 27,
+              "typeface": "Arial",
+              "color": "#666666",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3uxwve9",
+      "id": "4",
+      "bbox": [
+        42,
+        590,
+        1080,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Наступний крок: нові тикери та щоденне оновлення після закриття біржі.",
+      "textPreview": "Наступний крок: нові тикери та щоденне оновлення після закриття біржі.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Arial",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Наступний крок: нові тикери та щоденне оновлення після закриття біржі."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Наступний крок: нові тикери та щоденне оновлення після закриття біржі.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Arial",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Наступний крок: нові тикери та щоденне оновлення після закриття біржі.",
+              "fontSize": 20,
+              "typeface": "Arial",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,377 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/7lve9p",
+    "id": "7lve9p",
+    "slide": 5,
+    "layoutId": "594bad65-4b83-43c7-b7e8-2d561475cabe",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "74f340f1-0152-44d8-bd1f-1685072dc0ac",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "594bad65-4b83-43c7-b7e8-2d561475cabe",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "74f340f1-0152-44d8-bd1f-1685072dc0ac",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "74f340f1-0152-44d8-bd1f-1685072dc0ac",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rydwvydc",
+      "id": "1",
+      "bbox": [
+        42,
+        28,
+        1120,
+        92
+      ],
+      "geometry": "rect",
+      "text": "Модель краща за базові рішення, але якість ще помірна",
+      "textPreview": "Модель краща за базові рішення, але якість ще помірна",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "Arial",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Модель краща за базові рішення, але якість ще помірна"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Модель краща за базові рішення, але якість ще помірна",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "typeface": "Arial",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Модель краща за базові рішення, але якість ще помірна",
+              "fontSize": 39,
+              "typeface": "Arial",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szmd43ux",
+      "id": "2",
+      "bbox": [
+        1184,
+        660,
+        54,
+        22
+      ],
+      "geometry": "rect",
+      "text": "5",
+      "textPreview": "5",
+      "resolvedFontSize": 10.33,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "Arial",
+        "color": "#666666",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.79,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Arial",
+            "color": "#666666",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5",
+              "fontSize": 13,
+              "typeface": "Arial",
+              "color": "#666666",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ozytgvat",
+      "id": "3",
+      "bbox": [
+        35,
+        125,
+        590,
+        460
+      ],
+      "alt": "Macro-F1 comparison on chronological test",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "13ce4e0a-ca68-4982-865d-6c1b7968a0d7",
+        "contentType": "image/png",
+        "byteLength": 47797
+      }
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bmpsra94",
+      "id": "4",
+      "bbox": [
+        655,
+        125,
+        570,
+        460
+      ],
+      "alt": "Confusion matrix on chronological test",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "038ebbc6-24d6-483f-8bc0-4377bee04313",
+        "contentType": "image/png",
+        "byteLength": 47527
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f2dwzito",
+      "id": "5",
+      "bbox": [
+        55,
+        590,
+        1130,
+        45
+      ],
+      "geometry": "rect",
+      "text": "Macro-F1: MLP 0,339 · дерево 0,281 · dummy 0,169",
+      "textPreview": "Macro-F1: MLP 0,339 · дерево 0,281 · dummy 0,169",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Arial",
+        "color": "#3D8DFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Macro-F1: MLP 0,339 · дерево 0,281 · dummy 0,169"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Macro-F1: MLP 0,339 · дерево 0,281 · dummy 0,169",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Arial",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Macro-F1: MLP 0,339 · дерево 0,281 · dummy 0,169",
+              "fontSize": 23,
+              "typeface": "Arial",
+              "color": "#3D8DFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03md8nut",
+      "id": "6",
+      "bbox": [
+        55,
+        635,
+        1130,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Тому сайт називає результат експериментальним сигналом, а не рекомендацією.",
+      "textPreview": "Тому сайт називає результат експериментальним сигналом, а не рекомендацією.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Arial",
+        "color": "#666666",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Тому сайт називає результат експериментальним сигналом, а не рекомендацією."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Тому сайт називає результат експериментальним сигналом, а не рекомендацією.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Arial",
+            "color": "#666666",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Тому сайт називає результат експериментальним сигналом, а не рекомендацією.",
+              "fontSize": 17,
+              "typeface": "Arial",
+              "color": "#666666",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
